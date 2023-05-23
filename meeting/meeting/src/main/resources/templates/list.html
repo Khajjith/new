@@ -5,7 +5,42 @@
     <meta charset="utf-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
 
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        a {
+            font-size: 16px;
+            color: #2196f3;
+            text-decoration: none;
+        }
+        table, th, td {
+  border: 1px solid black;}
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
     <title>Ülések listája</title>
 
     <link rel="stylesheet"
@@ -19,15 +54,15 @@
 
     <a th:href="@{/new/create}"
        type="button"
-       class="btn btn-info">Új ülés hozzá adása</a>
+       class="btn btn-info">Új ülés hozzáadása</a>
 
     <table class="table table-striped pt-5">
-        <caption>Ülések listája</caption>
         <thread>
             <tr>
                 <th scope="col">ID</th>
                 <th scope="col">Dátum</th>
-                <th scope="col">Típus</th>
+                <th scope="col">Ülés típus</th>
+                <th scope="col">Ülés jellege</th>
                 <th scope="col">Időpont</th>
 
             </tr>
