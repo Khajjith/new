@@ -91,7 +91,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/Khajjith/meeting</url>
+			<url>https://maven.pkg.github.com/Khajjith/new/</url>
 		</repository>
 	</distributionManagement>
 </project>
