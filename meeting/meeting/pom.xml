@@ -83,7 +83,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub Packages</name>
-			<url>https://maven.pkg.github.com/Khajjith/new</url>
+			<url>https://maven.pkg.github.com/Khajjith/</url>
 		</repository>
 	</distributionManagement>
 </project>
